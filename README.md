@@ -7,8 +7,11 @@ ORM/DB:think-orm
 模板引擎：twig 
 使用手册twig官网(个人喜欢twig，不需要的可以直接在Bootstrap.php 将_initPlugin里的将它注释掉，就是默认的Sample)
 
+
 验证码:
 提供了一个验证码，从别人的yaf封装里拿的（在他写的代码里学到了很多，非常感谢），主要是提供一个示例，其实需要什么用composer就可以了
+
+qq8132502
 
 
 
