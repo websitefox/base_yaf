@@ -1,4 +1,4 @@
-# base_yaf
+# base_yaf namespace
 十一假期期间利用晚上闲置学习了一下yaf，这里提供的是一个命名空间的简单示例。
 
 ORM/DB:think-orm 
