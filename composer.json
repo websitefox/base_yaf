@@ -1,0 +1,6 @@
+{
+    "require": {
+        "twig/twig": "^2.4",
+        "topthink/think-orm": "^0.2.0"
+    }
+}

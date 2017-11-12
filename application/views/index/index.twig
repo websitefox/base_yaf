@@ -1,0 +1,27 @@
+{% extends "layout.twig" %}
+
+{% block title %}学习yaf{% endblock %}
+
+{% block head %}
+    {{ parent() }}
+
+{% endblock %}
+{% block content %}
+
+    <h2>{{ content }}</h2>
+    <h3>{{ name }} </h3>
+    <p>
+        新加入：twig模板引擎，think的orm和db 还有    <img src="/index/index/Captcha">
+    </p>
+    <h3>以下为数据库查询已经twig的模板标签循环</h3>
+    <ul>
+        {#{% for vo in hooks %}#}
+            {#<li>#}
+                {#{{ vo.name }}:{{ vo.description }}</p>#}
+            {#</li>#}
+        {#{% endfor %}#}
+    </ul>
+
+
+
+{% endblock %}
